@@ -1,0 +1,1 @@
+The problem is that the installed headers on your system (in /usr/include/google/protobuf or /usr/local/include/google/protobuf) are from a newer version of Protocol Buffers than your protoc. It may be the case that you have both versions installed in different locations, and the wrong one is being used.
